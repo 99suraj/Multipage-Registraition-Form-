@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pdf upload 2</title>
+    <link rel="stylesheet" href="formuse.css">
+</head>
+<style>
+
+</style>
+
+
+<body>
+    <h1>Registraition Form 3</h1>
+    <h2>upload your documents.</h2>
+
+    <hr>
+    <div class="fullpage3">
+        <form action="">
+            <!-- form 1 input-->
+            <div class="input-group3-text">
+                Passport size photo : <input type="file" id="file-e1" accept="image/*" required>
+
+                <button type="next" id="btn"> Upload Image </button>
+                <div> Image should be less than 4MB.</div>
+                <div id="size"></div>
+            </div>
+            <!-- form 2 input-->
+            <div class="input-group3-text">
+                HSC Marksheet : <input type="file" id="file-e2" required>
+
+                <button type="next" id="btnm"> Upload Marksheet</button>
+                <div> file should be less than 4MB.</div>
+                <div id="size2"></div>
+            </div>
+            <!-- form 3 input-->
+            <div class="input-group3-text">
+                SSC Marksheet : <input type="file" id="file-e3" placeholder="file should be less than 4MB" required>
+
+                <button type="next" id="btnmo"> Upload Marksheet</button>
+                <div> file should be less than 4MB.</div>
+                <div id="size3"></div>
+            </div>
+            <!-- form 4 input-->
+            <div class="input-group3-text">
+             All Semester Marksheet : <input type="file" id="file-e4" required>
+
+                <button type="next" id="btnmop"> Upload marksheet </button>
+                <div> file should be less than 10MB.</div>
+                <div id="size4"></div>
+            </div>
+           <div class="btn-last">
+            <input type="submit" value="submit" id="submission">
+            </div>
+
+
+        </form>
+    </div>
+    <script src="image_upload.js"></script>
+
+            
+</body>
+
+</html>
