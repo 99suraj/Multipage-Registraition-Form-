@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formuse.css">
+</head>
+
+<body>
+    <h1>Home Page 2 Registraition </h1>
+    <hr>
+    <div class="fullpage">
+        <form action="" onsubmit="return myfunc2(event)">
+            <div class="input-group">
+
+                <span class="input-group-text" id=""> HSC Institute Name <span class="star">*</span></span><br>
+                <input type="text" class="form-control" id="hsc-name" placeholder=" write Institute Name"
+                pattern="[A-Za-z]+" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"> Board Name <span class="star">*</span></span><br>
+                <input type="text" class="form-control" placeholder=" write your Board name " id="board-name1" pattern="[A-Za-z]+" required>
+
+            </div>
+
+            <div class="input-group">
+
+                <span class="input-group-text" id="basic-addon1"> score in Board<span class="star">*</span></span><br>
+                <input type="number" class="form-control" placeholder=" score " 
+                    id="score-board1" required>
+
+            </div>
+            <div class="input-group">
+
+                <span class="input-group-text" id="basic-addon1">SSC Institution Name <span
+                        class="star">*</span></span><br>
+                <input type="text" class="form-control" placeholder="institution Name" aria-label="Username"
+                    id="ssc-name" pattern="[A-Za-z]+"  required>
+
+            </div>
+            <div class="input-group mb-3">
+
+                <span class="input-group-text" id="basic-addon1"> Board Name <span class="star">*</span></span><br>
+                <input type="text" class="form-control" placeholder="Board Name" aria-label="Username"
+                     id="board-name2" pattern="[A-Za-z]+" required>
+
+            </div>
+
+            <div class="input-group mb-3">
+
+                <span class="input-group-text" id="basic-addon1"> score in your Board<span
+                        class="star">*</span></span><br>
+                <input type="number" class="form-control" placeholder="score in percatage " aria-label="Username"
+                    id="score-board2" aria-describedby="" required>
+
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-text"> Currently Pursuing <span class="star">*</span></span><br>
+                <input type="text" class="form-control"  placeholder="" id="current-pur" pattern="[A-Za-z]+" required>
+
+            </div>
+            <div class="input-group mb-3">
+
+                <span class="input-group-text" id="basic-addon1"> Current Edicational Institution Name <span
+                        class="star">*</span></span><br>
+                <input type="text" class="form-control" placeholder="Institution Name" aria-label="Username"
+                    id="current-edu" pattern="[A-Za-z]+" aria-describedby="" required>
+
+            </div>
+
+            <div class="input-group mb-3">
+
+                <span class="input-group-text" id="basic-addon1">Overall percatage <span
+                        class="star">*</span></span><br>
+                <input type="number" class="form-control" placeholder="Institution Name" aria-label="Username"
+                    id="overall" aria-describedby="" required>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text"> Current Backlog If any <span class="star">*</span></span><br>
+                    <input type="text" class="form-control" onkeyup="" placeholder="### ### #####"
+                        id="current-back" name="quantity" min="1" max="35" required>
+                    
+                </div>
+
+
+            </div>
+            <div class="button">
+                
+                <button class="" id="next"> next</button>
+
+
+            </div>
+        </form>
+        <div class="previous">
+        <a href="Formuse.html"><button class="button" id="previous">previous form </button></a> 
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="form2.js">
+    </script>
+
+
+
+
+</body>
+
+</html>

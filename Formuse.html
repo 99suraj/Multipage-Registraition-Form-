@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regist form</title>
+    <link rel="stylesheet" href="formuse.css">
+</head>
+
+<body>
+
+  <h1>Registraition form 1 </h1>
+    <hr>
+    <div class="fullpage">
+        <div class="input-group">
+            <form action=" " name="form1"  onsubmit="return myfunc(event)">
+
+                <span class="input-group-text" id=""> Name <span class="star">*</span></span><br>
+                <input type="text" id="first-name" class="form-control" placeholder="first Name"
+                pattern="[A-Za-z]+" required />
+
+
+
+                <input type="text" id="last-name" class="form-control" placeholder="Last Name"
+                 id="laster-names" pattern="[A-Za-z]+" required />
+               
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"> Date Of Birth<span class="star">*</span></span><br>
+            <input type="date" id="dob" class="form-control" placeholder="First Name" id="birth-date" required />
+
+
+
+        </div>
+
+        <div class="input-group">
+
+            <span class="input-group-text" id="basic-addon1"> Email<span class="star">*</span></span><br>
+            <input type="email" id="email" class="form-control" placeholder="Email Name" name="users"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+
+        </div>
+        <div class="input-group">
+
+            <span class="input-group-text">Father's Name<span class="star">*</span></span><br>
+            <input type="text" id="father-first-name" class="form-control" placeholder="First Name"
+            pattern="[A-Za-z]+" required />
+
+
+
+            <input type="text" id="father-last-name" class="form-control" placeholder="Last Name"
+            pattern="[A-Za-z]+"   required/>
+
+        </div>
+        <div class="input-group mb-3">
+
+            <span class="input-group-text" id="basic-addon1"> Mother's Name<span class="star">*</span></span><br>
+            <input type="text" id="mother-first-name" class="form-control" placeholder="First Name"
+            pattern="[A-Za-z]+" required />
+
+
+
+            <input type="text" id="mother-last-name" class="form-control" placeholder="Last Name"
+            pattern="[A-Za-z]+" required />
+            
+        </div>
+
+        <div class="input-group">
+
+            <span class="input-group-text" id=""> Gender<span class="star">*</span></span><br>
+            <label for="sectionida" >
+                <input type="radio" class="same" name="section" value="male" id="gender"  required/>Male
+            </label><br>
+            <label for="sectionidb">
+                <input type="radio" class="same" name="section" value="female" id="" required/> Female
+            </label>
+
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"> Nationality<span class="star">*</span></span><br>
+            <input type="text" id="nationality" class="form-control" placeholder="nationality" pattern="[A-Za-z]+" required/>
+
+        </div>
+
+        <div class="input-group">
+
+            <span class="input-group-text" id="basic-addon1"> Home Address<span class="star">*</span></span>
+            <div class="input-group mb-3">
+
+                <input type="text" id="home-address" class="form-control" placeholder="Address" aria-describedby="" required />
+
+            </div>
+            <br>
+            <input type="text" id="city" class="form-control" placeholder="city" aria-label="" required/>
+
+
+            <select name="form" class="form-control" id="country" required>
+                <option value=""> Country</option>
+                <option value="india">India</option>
+                <option value="america">America</option>
+                <option value="austrailia">Austrailia</option>
+                <option value="canada">Canada</option>
+                <option value="china">China</option>
+            </select>
+
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"> Telephone-number<span class="star">*</span></span><br>
+                <input type="number" id="telephone-number" class="form-control" placeholder="### ### #####" />
+                <span id="message"></span>
+
+            </div>
+            <div class="input-number">
+                <span class="input-group-text"> Telephne-Home <span class="star">*</span></span><br>
+                <input type="number" class="form-control" placeholder="#### #### ###" id="telephone-home" required/>
+                <span id="message2"></span>
+            </div>
+
+
+        </div>
+
+        <div class="formBox">
+
+        </div>
+        <div id="msg">
+            <pre>
+
+            </pre>
+        </div>
+        <div class="button">
+        <button class="" id="submit">submit</button>
+        </div>
+        </form>
+        
+
+    </div>
+
+
+
+
+    <script src="formuse.js"></script>
+
+
+
+</body>
+
+</html>
